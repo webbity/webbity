@@ -1,0 +1,142 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0e0e0e;
+      color: white;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid #333;
+    }
+
+    header img {
+      height: 200px;
+    }
+
+    .container a {
+      margin-left: 20px;
+      font-weight: 500;
+      color: #ffd700;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 100px 40px 60px;
+      background: linear-gradient(to right, #1a1a1a, #0e0e0e);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+
+    .cta-button {
+      background-color: #f5b942;
+      color: #0e0e0e;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #ffc75f;
+    }
+
+    section {
+      padding: 60px 40px;
+    }
+
+    .rolunk h2, .szolgaltatasok h2, .galeria h2, .velemenyek h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .rolunk p {
+      max-width: 800px;
+      color: #aaa;
+    }
+
+    .services {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .service-card {
+      flex: 1;
+      min-width: 200px;
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      color: #ccc;
+      border-left: 4px solid #f5b942;
+    }
+
+    .service-card h3 {
+      color: #f5b942;
+      margin-bottom: 10px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery-item {
+      background-color: #1a1a1a;
+      padding: 30px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .velemenyek blockquote {
+      font-style: italic;
+      margin: 20px 0;
+      padding-left: 20px;
+      border-left: 3px solid #f5b942;
+      color: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #111;
+      padding: 30px;
+      color: #888;
+      font-size: 14px;
+    }
+     .contact-info {
+      margin-top: 20px;
+    }
+
+    .contact-info a {
+      display: block;
+      margin: 5px 0;
+      color: #ffd700;
+    }
